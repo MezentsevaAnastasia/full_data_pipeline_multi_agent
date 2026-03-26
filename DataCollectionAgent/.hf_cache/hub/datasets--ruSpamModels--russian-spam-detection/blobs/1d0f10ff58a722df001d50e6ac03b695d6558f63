@@ -1,0 +1,26 @@
+---
+license: cc-by-nc-4.0
+task_categories:
+- text-classification
+language:
+- ru
+---
+# RuSpam Dataset
+
+Датасет для бинарной классификации сообщений на **спам / не спам**.
+
+## 📊 Структура
+- `message` — текст сообщения
+- `label` — (`1` — спам, `0` — не спам)
+
+## 🧠 Модель
+- [darkQibit/ruSpamNS_v31_big](https://huggingface.co/darkQibit/ruSpamNS_v31_big)
+
+---
+
+## 📢 Канал автора
+
+Подпишитесь на Telegram-канал автора — это сильно поможет проекту.  
+Там публикуются новости, обновления и другие разработки.
+
+👉 https://t.me/qubit_a

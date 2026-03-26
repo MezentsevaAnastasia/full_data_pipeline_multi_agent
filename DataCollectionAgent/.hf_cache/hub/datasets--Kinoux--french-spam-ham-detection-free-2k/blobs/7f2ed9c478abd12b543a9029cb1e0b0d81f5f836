@@ -1,0 +1,240 @@
+---
+language:
+- fr
+license: other
+pretty_name: French Spam/Ham Detection Free 2K
+tags:
+- spam-detection
+- text-classification
+- french
+- synthetic
+- spam
+- ham
+task_categories:
+- text-classification
+task_ids:
+- multi-class-classification
+size_categories:
+- 1K<n<10K
+---
+
+# French Spam/Ham Detection Free 2K
+
+**French Spam/Ham Detection Free 2K** is a **free 2,000-record sample** extracted from the full commercial dataset **French Spam/Ham Detection** (56,400 synthetic messages) provided by **Kinoux**.
+
+Each entry is a synthetic French message labeled with a **binary classification**:
+
+* `spam`
+* `ham`
+
+The data is **100% synthetic** (no personal data, no scraped emails, no real platform exports) and was generated specifically for training and evaluating **French-native spam detection models**.
+
+Official product page for the full dataset and model:
+[https://kinoux.com/datasets-models/french-spam-ham-detection/](https://kinoux.com/datasets-models/french-spam-ham-detection/)
+
+---
+
+## Dataset Description
+
+### Summary
+
+This dataset contains **2,000 French messages**, each annotated with a single label: `spam` or `ham`.
+
+It is designed as a **free preview** of the full commercial dataset (56,400 records) used to fine-tune high-performance French spam detection classifiers.
+
+### Supported Tasks
+
+* **Task**: Spam detection / binary text classification
+* **Input**: French message text (`text`)
+* **Output**: Label (`label`) in `{spam, ham}`
+
+This sample can be used to:
+
+* Train and evaluate French spam classifiers
+* Benchmark CamemBERT / Transformers pipelines on binary classification
+* Build email filtering prototypes
+* Create SMS or contact-form filtering systems
+* Test moderation pipelines
+
+---
+
+## Languages
+
+* **Input language**: French (`fr`)
+* **Labels**: English strings (`spam`, `ham`)
+
+---
+
+## Dataset Structure
+
+### Data Instances
+
+Each line is a JSON object like:
+
+```json
+{"text": "Félicitations ! Vous avez gagné un iPhone 15. Cliquez ici pour réclamer votre prix.", "label": "spam"}
+```
+
+More examples:
+
+```json
+{"text": "Bonjour, je vous envoie le devis demandé en pièce jointe.", "label": "ham"}
+{"text": "Offre exceptionnelle valable aujourd'hui seulement ! Répondez STOP pour vous désinscrire.", "label": "spam"}
+{"text": "Peux-tu me rappeler quand tu as un moment ?", "label": "ham"}
+```
+
+### Data Fields
+
+* `text` (string):
+  Synthetic French message (email, SMS-style message, marketing text, notification, etc.).
+
+* `label` (string):
+  Binary label with **two possible values**:
+
+  * `spam`
+  * `ham`
+
+---
+
+## Data Splits
+
+This free 2K sample is provided as a **single split**.
+
+Users are encouraged to create their own train/validation splits (e.g. 85/15 stratified by label).
+
+The **full 56,400-record dataset** (commercial) includes a recommended stratified split and additional evaluation utilities.
+
+---
+
+## Data Generation and Coverage
+
+* All records are **synthetically generated** using French-native linguistic patterns.
+* No real emails, phone numbers, or personal data are included.
+* Messages simulate multiple real-world scenarios:
+
+  * Promotional spam
+  * Financial scams
+  * Phishing-style messages
+  * Subscription traps
+  * Marketing emails
+  * Legitimate personal messages
+  * Business communication
+
+The objective is to provide a **clean, balanced, and legally safe corpus** for training and benchmarking spam classifiers in French.
+
+---
+
+## Usage
+
+### Example: Loading with `datasets`
+
+```python
+from datasets import load_dataset
+
+ds = load_dataset(
+	"kinoux/french-spam-ham-detection-free-2k",
+	split="train"
+)
+
+print(ds[0])
+# {'text': '...', 'label': 'spam'}
+```
+
+### Example: Training a CamemBERT binary classifier (sketch)
+
+```python
+from datasets import load_dataset
+from transformers import AutoTokenizer, AutoModelForSequenceClassification, TrainingArguments, Trainer
+
+dataset = load_dataset("kinoux/french-spam-ham-detection-free-2k", split="train")
+dataset = dataset.train_test_split(test_size=0.15, stratify_by_column="label")
+
+tokenizer = AutoTokenizer.from_pretrained("camembert-base")
+
+def tokenize_batch(batch):
+	return tokenizer(batch["text"], truncation=True, padding="max_length")
+
+tokenized = dataset.map(tokenize_batch, batched=True)
+
+label2id = {"ham": 0, "spam": 1}
+id2label = {v: k for k, v in label2id.items()}
+
+def encode_labels(batch):
+	batch["labels"] = [label2id[s] for s in batch["label"]]
+	return batch
+
+tokenized = tokenized.map(encode_labels, batched=True)
+
+model = AutoModelForSequenceClassification.from_pretrained(
+	"camembert-base",
+	num_labels=2,
+	id2label=id2label,
+	label2id=label2id,
+)
+
+args = TrainingArguments(
+	output_dir="./spam_fr_model",
+	evaluation_strategy="epoch",
+	learning_rate=2e-5,
+	per_device_train_batch_size=16,
+	per_device_eval_batch_size=16,
+	num_train_epochs=3,
+	weight_decay=0.01,
+)
+
+trainer = Trainer(
+	model=model,
+	args=args,
+	train_dataset=tokenized["train"],
+	eval_dataset=tokenized["test"],
+)
+
+trainer.train()
+```
+
+---
+
+## Limitations
+
+* This is a **small sample (2k)**: suitable for experimentation and benchmarking, but not sufficient alone for production-grade filtering systems.
+* Messages are synthetic; real-world performance must always be validated on in-domain data.
+* Advanced evasion techniques (obfuscation, unicode tricks, heavy slang) may not be fully represented in this sample.
+
+For production use cases, the full 56,400-record dataset is recommended.
+
+---
+
+## Full Dataset & Model (Commercial)
+
+The full **French Spam/Ham Detection** product from Kinoux includes:
+
+* **56,400** synthetic French messages (JSONL)
+* Balanced binary labels (`spam`, `ham`)
+* Recommended stratified split
+* Fine-tuned transformer model
+* ONNX export guidance
+* Clear commercial license for on-prem / private cloud usage
+
+More details and licensing options on our website.
+
+---
+
+## Licensing Information
+
+This dataset is distributed under the **Kinoux Dataset License (Version 2025-06-01)**.
+
+* You may use this sample for **internal research, prototyping, model training and evaluation**.
+* **Redistribution of the dataset, in whole or in part, is prohibited**, including uploading copies to other platforms or public repos.
+* For detailed terms, please refer to the `LICENSE.md` file in this repository.
+
+To obtain commercial access to the full dataset and model, please visit our website.
+
+---
+
+## Citation
+
+If you use this dataset in a publication, product, or internal report, please cite:
+
+> Kinoux – French Spam/Ham Detection Free 2K (synthetic dataset).
+> Available as a sample on Hugging Face.
+> Complete product and documentation on our website.

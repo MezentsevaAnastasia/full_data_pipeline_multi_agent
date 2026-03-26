@@ -1,0 +1,31 @@
+---
+dataset_info:
+  features:
+  - name: id
+    dtype: string
+  - name: text
+    dtype: string
+  - name: toxic
+    dtype: int64
+  - name: severe_toxic
+    dtype: int64
+  - name: obscene
+    dtype: int64
+  - name: threat
+    dtype: int64
+  - name: insult
+    dtype: int64
+  - name: identity_hate
+    dtype: int64
+  splits:
+  - name: train
+    num_bytes: 74473714
+    num_examples: 159571
+  download_size: 43853187
+  dataset_size: 74473714
+configs:
+- config_name: default
+  data_files:
+  - split: train
+    path: data/train-*
+---

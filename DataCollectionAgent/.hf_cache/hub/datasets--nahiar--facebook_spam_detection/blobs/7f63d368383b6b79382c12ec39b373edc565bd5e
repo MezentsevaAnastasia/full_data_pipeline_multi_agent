@@ -1,0 +1,191 @@
+---
+license: mit
+task_categories:
+- tabular-classification
+language:
+- en
+tags:
+- social-media
+- spam-detection
+- facebook
+- cybersecurity
+- machine-learning
+- binary-classification
+- fraud-detection
+size_categories:
+- n<1K
+---
+
+# Facebook Spam Detection Dataset
+
+## Dataset Summary
+
+This dataset contains **600 Facebook profiles** with behavioral and activity features designed for **spam detection** in social media. The dataset enables binary classification to distinguish between spam accounts (Label=1) and legitimate accounts (Label=0), providing insights into spammer behavior patterns on Facebook.
+
+## Dataset Details
+
+- **Total Samples**: 600 profiles
+- **Classes**: Binary (0 = Legitimate, 1 = Spam)
+- **Class Distribution**: Imbalanced (17.2% spam, 82.8% legitimate)
+- **Features**: 14 behavioral characteristics + 1 target label
+- **Format**: CSV file
+
+## Features Description
+
+| Feature | Type | Description | Range |
+|---------|------|-------------|-------|
+| `profile id` | Integer | Unique profile identifier | 1-600 |
+| `#friends` | Integer | Number of friends | 4-5,554 |
+| `#following` | Integer | Number of accounts being followed | 1-5,312 |
+| `#community` | Integer | Number of communities/groups joined | 12-1,789 |
+| `age` | Integer | Account age (likely in days) | 125-2,697 |
+| `#postshared` | Integer | Total number of posts shared | 76-3,896 |
+| `#urlshared` | Integer | Number of URLs shared in posts | 11-2,956 |
+| `#photos/videos` | Integer | Number of photos/videos posted | 65-3,891 |
+| `fpurls` | Float | Frequency/proportion of URLs in posts | 0.01-1.09 |
+| `fpphotos/videos` | Float | Frequency/proportion of media content | 0.0-2.74 |
+| `avgcomment/post` | Float | Average comments per post | 0.0-665 |
+| `likes/post` | Float | Average likes per post | 0.1-2.8 |
+| `tags/post` | Integer | Tags used in posts | 10-99 |
+| `#tags/post` | Integer | Number of tags per post | 1-32 |
+| `Label` | Integer | **Target variable** - Spam (1) or Legitimate (0) | 0-1 |
+
+## Key Statistics
+
+- **Network Size**: Average 1,066 friends and 1,069 following
+- **Community Engagement**: Average 208 communities joined
+- **Account Maturity**: Average age of 1,215 days (~3.3 years)
+- **Content Activity**: 
+  - Average 1,158 posts shared
+  - Average 370 URLs shared
+  - Average 1,121 photos/videos posted
+- **Engagement Metrics**:
+  - Average 1.6 comments per post
+  - Average 0.88 likes per post
+  - Average 16 tags per post
+
+## Class Imbalance
+
+⚠️ **Important**: This dataset is imbalanced:
+- **Legitimate accounts**: 497 samples (82.8%)
+- **Spam accounts**: 103 samples (17.2%)
+
+Consider using techniques like SMOTE, class weighting, or balanced sampling for training.
+
+## Use Cases
+
+This dataset is ideal for:
+
+- **Spam Detection**: Build classifiers to identify Facebook spam accounts
+- **Behavioral Analysis**: Study differences between spam and legitimate user behavior
+- **Anomaly Detection**: Develop unsupervised methods for suspicious activity detection
+- **Social Media Security**: Research automated content moderation systems
+- **Imbalanced Learning**: Practice techniques for handling skewed datasets
+
+## Quick Start
+
+```python
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import classification_report, confusion_matrix
+from imblearn.over_sampling import SMOTE
+
+# Load dataset
+df = pd.read_csv('Facebook Spam Dataset.csv')
+
+# Prepare features and target
+X = df.drop(['Label', 'profile id'], axis=1)
+y = df['Label']
+
+# Handle class imbalance with SMOTE
+smote = SMOTE(random_state=42)
+X_resampled, y_resampled = smote.fit_resample(X, y)
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(
+    X_resampled, y_resampled, test_size=0.2, random_state=42, stratify=y_resampled
+)
+
+# Train model
+model = RandomForestClassifier(
+    n_estimators=100, 
+    class_weight='balanced',
+    random_state=42
+)
+model.fit(X_train, y_train)
+
+# Evaluate
+y_pred = model.predict(X_test)
+print("Classification Report:")
+print(classification_report(y_test, y_pred))
+```
+
+## Suggested Approaches
+
+### Traditional ML
+- **Random Forest**: Handles mixed data types well
+- **Gradient Boosting**: XGBoost, LightGBM for performance
+- **SVM**: With RBF kernel for non-linear patterns
+- **Logistic Regression**: With proper feature scaling
+
+### Handling Imbalance
+- **Sampling**: SMOTE, ADASYN for oversampling
+- **Cost-sensitive**: Class weights in algorithms
+- **Ensemble**: Balanced bagging, EasyEnsemble
+- **Metrics**: Focus on F1-score, AUC-ROC, precision/recall
+
+### Feature Engineering
+- **Ratios**: Create engagement ratios (likes/posts, comments/posts)
+- **Behavioral**: URL sharing patterns, media content ratios
+- **Network**: Friend-to-following ratios, community participation
+- **Temporal**: Account age interactions with activity levels
+
+## Model Evaluation Tips
+
+Given the class imbalance, prioritize these metrics:
+- **F1-Score**: Harmonic mean of precision and recall
+- **AUC-ROC**: Area under the ROC curve
+- **Precision/Recall**: Especially for spam class (minority)
+- **Confusion Matrix**: To understand false positives/negatives
+
+## Data Quality
+
+- ✅ **Complete Data**: No missing values
+- ⚠️ **Class Imbalance**: 82.8% legitimate vs 17.2% spam
+- ✅ **Feature Variety**: Network, content, and engagement metrics
+- ✅ **Realistic Ranges**: All features show plausible Facebook activity patterns
+
+## Research Opportunities
+
+1. **Behavioral Patterns**: What distinguishes spam from legitimate user behavior?
+2. **Feature Importance**: Which metrics are most predictive of spam accounts?
+3. **Temporal Analysis**: How does account age correlate with spam likelihood?
+4. **Network Effects**: Do spam accounts show distinct networking patterns?
+5. **Content Analysis**: How do URL sharing and media patterns differ?
+
+## Potential Applications
+
+- **Social Media Platforms**: Automated spam account detection
+- **Content Moderation**: Flagging suspicious posting patterns
+- **User Safety**: Protecting users from spam and malicious content
+- **Research**: Understanding social media abuse patterns
+- **Security Systems**: Real-time threat detection algorithms
+
+## Citation
+
+```bibtex
+@dataset{facebook_spam_detection_2024,
+  title={Facebook Spam Detection Dataset},
+  year={2025},
+  publisher={Hugging Face},
+  url={https://huggingface.co/datasets/nahiar/facebook-spam-detection}
+}
+```
+
+## Notes
+
+- The `age` feature appears to be in days rather than years
+- Some ratio features (like `fpurls`, `fpphotos/videos`) may exceed 1.0, indicating normalized metrics
+- Consider feature scaling for distance-based algorithms
+- The dataset reflects Facebook's ecosystem and user behavior patterns
