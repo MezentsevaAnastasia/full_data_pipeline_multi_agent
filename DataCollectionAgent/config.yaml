@@ -1,0 +1,89 @@
+schema:
+  columns:
+    - text
+    - label
+    - source
+    - collected_at
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Каждая задача — отдельный ключ в секции tasks.
+# Запуск:  python agents/data_collection_agent.py --task <имя_задачи>
+# Список:  python agents/data_collection_agent.py --list
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+tasks:
+
+  # ── Sentiment Analysis ───────────────────────────────────────────────
+  sentiment_analysis:
+    description: "Бинарная классификация тональности текста (positive / negative)"
+    modality: text
+    output:
+      path: data/raw/sentiment_dataset.csv
+      format: csv
+    sources:
+      - type: hf_dataset
+        name: rotten_tomatoes
+        split: train
+        text_field: text
+        label_field: label
+        label_map:
+          0: negative
+          1: positive
+        max_samples: 3000
+      - type: scrape
+        url: https://quotes.toscrape.com
+        selector: "div.quote span.text"
+        max_pages: 10
+        auto_label: true
+
+  # ── Topic Classification ─────────────────────────────────────────────
+  topic_classification:
+    description: "Классификация новостей по темам (World / Sports / Business / Sci-Tech)"
+    modality: text
+    output:
+      path: data/raw/topic_dataset.csv
+      format: csv
+    sources:
+      - type: hf_dataset
+        name: fancyzhx/ag_news
+        split: train
+        text_field: text
+        label_field: label
+        label_map:
+          0: World
+          1: Sports
+          2: Business
+          3: Sci-Tech
+        max_samples: 4000
+      - type: scrape
+        url: https://quotes.toscrape.com
+        selector: "div.quote span.text"
+        max_pages: 5
+        auto_label: false
+
+  # ── Emotion Detection ────────────────────────────────────────────────
+  emotion_detection:
+    description: "Определение эмоции текста (sadness / joy / love / anger / fear / surprise)"
+    modality: text
+    output:
+      path: data/raw/emotion_dataset.csv
+      format: csv
+    sources:
+      - type: hf_dataset
+        name: dair-ai/emotion
+        split: train
+        text_field: text
+        label_field: label
+        label_map:
+          0: sadness
+          1: joy
+          2: love
+          3: anger
+          4: fear
+          5: surprise
+        max_samples: 3000
+      - type: scrape
+        url: https://quotes.toscrape.com
+        selector: "div.quote span.text"
+        max_pages: 5
+        auto_label: false
