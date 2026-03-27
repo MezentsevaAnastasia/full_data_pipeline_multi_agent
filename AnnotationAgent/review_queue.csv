@@ -1,0 +1,9 @@
+text,label,source,collected_at,predicted_label,confidence,needs_review
+"your response to its new sequel , analyze that , may hinge on what you thought of the first film .",positive,hf_rotten_tomatoes,2026-03-26T15:15:45.442130+00:00,negative,0.5215,True
+i loved looking at this movie . i just didn't care as much for the story .,negative,hf_rotten_tomatoes,2026-03-26T15:15:45.442130+00:00,positive,0.5564,True
+"there's not a single jump-in-your-seat moment and believe it or not , jason actually takes a backseat in his own film to special effects .",negative,hf_rotten_tomatoes,2026-03-26T15:15:45.442130+00:00,positive,0.5769,True
+"it will grip even viewers who aren't interested in rap , as it cuts to the heart of american society in an unnerving way .",positive,hf_rotten_tomatoes,2026-03-26T15:15:45.442130+00:00,negative,0.578,True
+"there must be an audience that enjoys the friday series , but i wouldn't be interested in knowing any of them personally .",negative,hf_rotten_tomatoes,2026-03-26T15:15:45.442130+00:00,negative,0.5909,True
+a moving and stark reminder that the casualties of war reach much further than we imagine .,positive,hf_rotten_tomatoes,2026-03-26T15:15:45.442130+00:00,negative,0.6289,True
+"rich in shadowy metaphor and as sharp as a samurai sword , jiang wen's devils on the doorstep is a wartime farce in the alternately comic and gut-wrenching style of joseph heller or kurt vonnegut .",positive,hf_rotten_tomatoes,2026-03-26T15:15:45.442130+00:00,negative,0.6935,True
+"a muckraking job , the cinematic equivalent of a legal indictment , and a fairly effective one at that .",positive,hf_rotten_tomatoes,2026-03-26T15:15:45.442130+00:00,negative,0.6977,True

@@ -1,0 +1,2502 @@
+[
+  {
+    "data": {
+      "text": "what \" empire \" lacks in depth it makes up for with its heart .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.8973
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.8973
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "a miniscule little bleep on the film radar , but one that many more people should check out",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9181
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9181
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "a incompetência de marcus adams como roteirista só é superada por sua péssima direção .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9915
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9915
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "it's a brave attempt to tap into the heartbeat of the world , a salute to the universal language of rhythm and a zippy sampling of sounds .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9907
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9907
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "it is amusing , and that's all it needs to be .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9766
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9766
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "i would have preferred a transfer down the hall to mr . holland's class for the music , or to robin williams's lecture so i could listen to a teacher with humor , passion , and verve .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9369
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9369
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "there's not a single jump-in-your-seat moment and believe it or not , jason actually takes a backseat in his own film to special effects .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.5769
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5769
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "the truth is that the truth about charlie gets increasingly tiresome .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9914
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9914
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "feels shrill , simple and soapy .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9954
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9954
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "the animation and backdrops are lush and inventive , yet return to neverland never manages to take us to that elusive , lovely place where we suspend our disbelief .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.8603
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.8603
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "presents an astute appraisal of middle american musical torpor and the desperate struggle to escape it .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9218
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9218
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "millions of dollars heaped upon a project of such vast proportions need to reap more rewards than spiffy bluescreen technique and stylish weaponry .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.7983
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.7983
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "demands too much of most viewers .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9861
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9861
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "the plot is straight off the shelf , the performances are television- caliber and the message of providing solace through deception is a little creepy .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.7184
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.7184
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "a bigger holiday downer than your end-of-year 401 ( k ) statement .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9963
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9963
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "o ótimo esforço do diretor acaba sendo frustrado pelo roteiro , que , depois de levar um bom tempo para colocar a trama em andamento , perde-se de vez a partir do instante em que os estranhos acontecimentos são explicados .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9968
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9968
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "it's like every bad idea that's ever gone into an after-school special compiled in one place , minus those daytime programs' slickness and sophistication ( and who knew they even had any ? ) .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9984
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9984
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "ultimately , in the history of the academy , people may be wondering what all that jazz was about \" chicago \" in 2002 . zellweger's whiny pouty-lipped poof faced and spindly attempt at playing an ingenue makes her nomination as best actress even more of a an a",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.8565
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.8565
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "a quietly reflective and melancholy new zealand film about an eventful summer in a 13-year-old girl's life .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9481
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9481
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "these people wouldn't know subtle characterization if it put on a giant furry monster costume and then gave them a lapdance .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9172
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9172
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "there must be an audience that enjoys the friday series , but i wouldn't be interested in knowing any of them personally .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.5909
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5909
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "it took 19 predecessors to get this ?",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.7392
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.7392
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "this follow-up seems so similar to the 1953 disney classic that it makes one long for a geriatric peter .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.8368
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.8368
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "a pro-fat farce that overcomes much of its excessive moral baggage thanks to two appealing lead performances .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9891
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9891
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "as befits its title , this pg-13-rated piffle is ultimately as threatening as the snuggle fabric softener bear .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9944
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9944
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "even horror fans will most likely not find what they're seeking with trouble every day ; the movie lacks both thrills and humor .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.99
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.99
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "a cheerful enough but imminently forgettable rip-off of [besson's] earlier work .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.8556
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.8556
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "putting the primitive murderer inside a high-tech space station unleashes a pandora's box of special effects that run the gamut from cheesy to cheesier to cheesiest .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.7712
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.7712
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "twenty-three movies into a mostly magnificent directorial career , clint eastwood's efficiently minimalist style finally has failed him . big time .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9853
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9853
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "delivers roughly equal amounts of beautiful movement and inside information .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9636
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9636
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "an often-deadly boring , strange reading of a classic whose witty dialogue is treated with a baffling casual approach",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9965
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9965
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "that 'alabama' manages to be pleasant in spite of its predictability and occasional slowness is due primarily to the perkiness of witherspoon ( who is always a joy to watch , even when her material is not first-rate ) . . .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9904
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9904
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "an intelligently made ( and beautifully edited ) picture that at the very least has a spark of life to it -- more than you can say for plenty of movies that flow through the hollywood pipeline without a hitch .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9974
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9974
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "a heartening tale of small victories and enduring hope .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9987
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9987
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "a worthy entry into a very difficult genre .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9936
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9936
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "a moving and stark reminder that the casualties of war reach much further than we imagine .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.6289
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6289
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "what madonna does here can't properly be called acting -- more accurately , it's moving and it's talking and it's occasionally gesturing , sometimes all at once .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.8766
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.8766
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "a devastating indictment of unbridled greed and materalism .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9967
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9967
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "no big whoop , nothing new to see , zero thrills , too many flashbacks and a choppy ending make for a bad film .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9967
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9967
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "the problems of the people in love in the time of money are hardly specific to their era . they just have problems , which are neither original nor are presented in convincing way .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9553
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9553
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "i loved looking at this movie . i just didn't care as much for the story .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.5564
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5564
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "\" mr . deeds \" is suitable summer entertainment that offers escapism without requiring a great deal of thought .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.977
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.977
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "lástima por schwarzenegger , pero es hora de que deje la estafeta a las nuevas generaciones .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9916
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9916
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "astonishing isn't the word -- neither is incompetent , incoherent or just plain crap . indeed , none of these words really gets at the very special type of badness that is deuces wild .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.983
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.983
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "seemingly a vehicle to showcase the canadian's inane ramblings , stealing harvard is a smorgasbord of soliloquies about nothing delivered by the former mr . drew barrymore .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.8878
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.8878
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "de oliveira creates an emotionally rich , poetically plump and visually fulsome , but never showy , film whose bittersweet themes are reinforced and brilliantly personified by michel piccoli .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9281
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9281
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "grainy photography mars an otherwise delightful comedy of errors .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.8896
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.8896
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "an emotionally strong and politically potent piece of cinema .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.8845
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.8845
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "the best part about \" gangs \" was daniel day-lewis .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9676
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9676
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "friday after next has the same problem that next friday did -- it's called where's chris tucker when you need him ?",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.929
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.929
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "your response to its new sequel , analyze that , may hinge on what you thought of the first film .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.5215
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5215
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "compellingly watchable .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9926
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9926
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "here's a british flick gleefully unconcerned with plausibility , yet just as determined to entertain you .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.925
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.925
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "beware the quirky brit-com . they can and will turn on a dime from oddly humorous to tediously sentimental .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.8929
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.8929
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "too sincere to exploit its subjects and too honest to manipulate its audience .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.782
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.782
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "a movie that will thrill you , touch you and make you laugh as well .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9936
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9936
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "for all its violence , the movie is remarkably dull with only caine making much of an impression .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9886
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9886
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "for a film about explosions and death and spies , \" ballistic : ecks vs . sever \" seems as safe as a children's film . well , in some of those , the mother deer even dies .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9501
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9501
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "apparently kissing leads to suicide attempts and tragic deaths . marisa tomei is good , but just a kiss is just a mess .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.996
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.996
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": ". . . surprisingly inert for a movie in which the main character travels back and forth between epochs .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9458
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9458
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "you leave feeling like you've endured a long workout without your pulse ever racing .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9069
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9069
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "feeble comedy .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.953
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.953
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "focuses on joan's raging hormones and sledgehammers the audience with spanish inquisitions about her \" madness \" so much that i became mad that i wasted 123 minutes and $9 . 50 on this 21st century torture device .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9574
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9574
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": ". . . the gentle melding of drama and comedy makes \" what time is it there ? \" something the true film buff will enjoy .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9875
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9875
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "sluggishly directed by episodic tv veteran joe zwick , it's a sitcom without the snap-crackle .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.8217
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.8217
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "keenly observed and refreshingly natural , swimming gets the details right , from its promenade of barely clad bodies in myrtle beach , s . c . , to the adrenaline jolt of a sudden lunch rush at the diner .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9916
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9916
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "an infectious cultural fable with a tasty balance of family drama and frenetic comedy .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.987
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.987
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "sits uneasily as a horror picture . . . but finds surprising depth in its look at the binds of a small family .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.8987
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.8987
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "this is the kind of movie where people who have never picked a lock do so easily after a few tries and become expert fighters after a few weeks .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.8221
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.8221
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "A lady's imagination is very rapid; it jumps from admiration to love, from love to matrimony in a moment.",
+      "source": "scrape_https://quotes.toscrape.com",
+      "confidence": 0.8706
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.8706
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "a muckraking job , the cinematic equivalent of a legal indictment , and a fairly effective one at that .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.6977
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6977
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "less an examination of neo-nazism than a probe into the nature of faith itself .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.8948
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.8948
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "the trappings of i spy are so familiar you might as well be watching a rerun .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.8423
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.8423
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "if anything , the film is doing something of a public service -- shedding light on a group of extremely talented musicians who might otherwise go unnoticed and underappreciated by music fans .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9874
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9874
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "if we don't demand a standard of quality for the art that we choose , we deserve the trash that we get .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9843
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9843
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "while it would be easy to give crush the new title of two weddings and a funeral , it's a far more thoughtful film than any slice of hugh grant whimsy .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.7601
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.7601
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "ray liotta and jason patric do some of their best work in their underwritten roles , but don't be fooled : nobody deserves any prizes here .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9548
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9548
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "murderous maids has a lot going for it , not least the brilliant performances by testud . . . and parmentier .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9948
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9948
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "it will grip even viewers who aren't interested in rap , as it cuts to the heart of american society in an unnerving way .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.578
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.578
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "qualities that were once amusing are becoming irritating .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9389
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9389
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "this is unusual , food-for-thought cinema that's as entertaining as it is instructive .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9924
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9924
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "the holes in this film remain agape -- holes punched through by an inconsistent , meandering , and sometimes dry plot .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9894
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9894
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "while certain cues , like the happy music , suggest that this movie is supposed to warm our hearts , jeong-hyang lee's film is just as likely to blacken that organ with cold vengefulness .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9477
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9477
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "it's worth seeing just on the basis of the wisdom , and at times , the startling optimism , of the children .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9957
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9957
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "the powers team has fashioned a comedy with more laughs than many , no question . but this time there's some mold on the gold .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.8813
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.8813
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "despite the authenticity of the trappings , the film is overblown in its plotting , hackneyed in its dialogue and anachronistic in its style .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9928
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9928
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "takes a fresh and absorbing look at a figure whose legacy had begun to bronze .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9758
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9758
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "a lighthearted , feel-good film that embraces the time-honored truth that the most powerful thing in life is love .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.998
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.998
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "about schmidt is undoubtedly one of the finest films of the year . if you're not deeply touched by this movie , check your pulse .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.964
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.964
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "unfolds with such a wallop of you-are-there immediacy that when the bullets start to fly , your first instinct is to duck .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9332
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9332
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "whether or not you buy mr . broomfield's findings , the film acquires an undeniable entertainment value as the slight , pale mr . broomfield continues to force himself on people and into situations that would make lesser men run for cover .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9352
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9352
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "superbly photographed and staged by mendes with a series of riveting set pieces the likes of which mainstream audiences have rarely seen .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9864
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9864
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "brainless , but enjoyably over-the-top , the retro gang melodrama , deuces wild represents fifties teen-gang machismo in a way that borders on rough-trade homo-eroticism .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.7219
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.7219
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "may take its sweet time to get wherever it's going , but if you have the patience for it , you won't feel like it's wasted yours .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.85
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.85
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "the dangerous lives of altar boys' take on adolescence feels painfully true .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.8754
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.8754
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "run , don't walk , to see this barbed and bracing comedy on the big screen .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.7071
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.7071
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "rich in shadowy metaphor and as sharp as a samurai sword , jiang wen's devils on the doorstep is a wartime farce in the alternately comic and gut-wrenching style of joseph heller or kurt vonnegut .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.6935
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6935
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "allen se atreve a atacar , a atacarse y nos ofrece gags que van de la sonrisa a la risa de larga duración",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9639
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.9639
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "a compelling motion picture that illustrates an american tragedy .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.7513
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.7513
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "strange and beautiful film .",
+      "source": "hf_rotten_tomatoes",
+      "confidence": 0.9108
+    },
+    "predictions": [
+      {
+        "model_version": "facebook/bart-large-mnli",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.9108
+      }
+    ]
+  }
+]
